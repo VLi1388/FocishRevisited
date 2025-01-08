@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f9fc;
+}
+
+#settings-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #2a9d8f;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 350px;
+}
+
+h1 {
+    font-size: 20px;
+    color: #264653;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#time-container {
+    display: flex; /* Arrange inputs and labels in a row */
+    align-items: baseline; /* Align labels and inputs to the same text baseline */
+    gap: 10px; /* Add space between inputs and labels */
+    margin-bottom: 20px;
+}
+
+#time-container input {
+    width: 60px; /* Fixed width for inputs */
+    padding: 5px;
+    text-align: center; /* Center-align text inside inputs */
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners */
+}
+
+#time-container label {
+    font-size: 14px; /* Match input font size */
+    margin: 0; /* Remove extra margins */
+    align-self: baseline; /* Align labels to input baselines */
+}
+
+.url-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.url-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-url-button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.add-url-button.hidden {
+    display: none;
+}
+
+button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e6e59;
+}

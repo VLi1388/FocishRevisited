@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focish</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div id="popup-container">
+        <h1>Focish</h1>
+        <p id="session-status">Start a focus session to save your fish!</p>
+    
+        <!-- Fish Section -->
+        <div id="fish-container">
+            <div id="water-level"></div> <!-- Water overlay block -->
+        </div>
+    
+        <!-- Countdown Timer -->
+        <div id="countdown-container" class="hidden">
+            <p id="countdown-timer">Time Left: --:--:--</p>
+        </div>
+    
+        <!-- Action Buttons -->
+        <div id="action-buttons">
+            <button id="start-button">Start</button>
+            <button id="pause-button" class="hidden">Pause</button>
+            <button id="quit-button" class="hidden">Quit</button>
+
+            <!-- Control Buttons -->
+            <button id="increase-water">Increase Water Level</button>
+            <button id="decrease-water">Decrease Water Level</button>
+        </div>
+    </div> 
+
+    <script src="popup.js"></script>
+</body>
+</html>

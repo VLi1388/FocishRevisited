@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Focish",
+    "version": "1.0",
+    "description": "Stay focused and save your fish!",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "icons": {
+        "16": "fishFrames/R1.png",
+        "48": "fishFrames/R1.png",
+        "128": "fishFrames/R1.png"
+    }
+}
