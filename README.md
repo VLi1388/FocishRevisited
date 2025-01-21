@@ -1,1 +1,10 @@
 # FocishRevisited
+
+This project is a revisit of the original Focish Chrome extension, which was initially developed during Hackcamp 2024 with my groupmates Dali, Amanda, and Priscila. For this revisited version, I took on the development independently and completed the functions that were given up during Hackcamp due to time limitation.
+
+### Focish can now:
+* Keep track of the users' "focus status" by tracking the website the user is currently on
+* Users can manage their "focus websites" by logging and clearing their target websites
+* Each study session is set to a default of 2 hours
+* Once the study session starts, Focish will run a "focus check" every 10 seconds and decrease the water level if the user is distracted
+* A study session is considered successful is the user manages to keep the fish alive throughout the 2 hours.
