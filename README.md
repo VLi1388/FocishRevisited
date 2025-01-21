@@ -7,4 +7,4 @@ This project is a revisit of the original Focish Chrome extension, which was ini
 * Users can manage their "focus websites" by logging and clearing their target websites
 * Each study session is set to a default of 2 hours
 * Once the study session starts, Focish will run a "focus check" every 10 seconds and decrease the water level if the user is distracted
-* A study session is considered successful is the user manages to keep the fish alive throughout the 2 hours.
+* A study session is considered successful if the user manages to keep the fish alive throughout the 2 hours.
