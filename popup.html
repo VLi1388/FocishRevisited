@@ -5,34 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Focish</title>
     <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
 </head>
 <body>
-    <div id="popup-container">
-        <h1>Focish</h1>
-        <p id="session-status">Start a focus session to save your fish!</p>
-    
-        <!-- Fish Section -->
-        <div id="fish-container">
-            <div id="water-level"></div> <!-- Water overlay block -->
-        </div>
-    
-        <!-- Countdown Timer -->
-        <div id="countdown-container" class="hidden">
-            <p id="countdown-timer">Time Left: --:--:--</p>
-        </div>
-    
-        <!-- Action Buttons -->
-        <div id="action-buttons">
-            <button id="start-button">Start</button>
-            <button id="pause-button" class="hidden">Pause</button>
-            <button id="quit-button" class="hidden">Quit</button>
+  <div id="popup-container">
+    <h1>Focish</h1>
+    <p id="session-status">Start a focus session to save your fish!</p>
 
-            <!-- Control Buttons -->
-            <button id="increase-water">Increase Water Level</button>
-            <button id="decrease-water">Decrease Water Level</button>
-        </div>
-    </div> 
+    <!-- Fish Section -->
+    <div id="fish-container">
+      <div id="water-level"></div>
+    </div>
 
-    <script src="popup.js"></script>
+    <!-- Countdown Timer -->
+    <div id="countdown-container" class="hidden">
+        <p id="countdown-timer">Time Left: --:--:--</p>
+    </div>
+
+    <!-- Action Buttons -->
+    <div id="action-buttons">
+      <!-- Start Button -->
+      <button id="start-button">Start</button>
+      <button id="pause-button" class="hidden">Pause</button>
+      <button id="quit-button" class="hidden">Quit</button>
+
+      <!-- Tabs Group -->
+      <div class="button-group">
+        <button id="log-tab-button" class="small-button">Log Tab</button>
+        <button id="clear-tabs-button" class="small-button">Clear Tabs</button>
+      </div>
+    
+      <!-- Water Level Group -->
+      <!-- <div class="button-group">
+        <button id="increase-water" class="small-button">Increase Water Level</button>
+        <button id="decrease-water" class="small-button">Decrease Water Level</button>
+      </div> -->
+    </div>
+
+    <p id="status"></p>
+
+    <h3>Logged Tabs:</h3>
+  <ul id="logged-tabs"></ul>
+
+  <h3 style="display: inline; margin-right: 10px;">Current Tab:</h3>
+  <ul id="current-tab" style="display: inline; padding: 0; margin: 0; list-style: none;"></ul>
+
+  <!-- <h3>Mismatching tabs?</h3>
+  <ul id="mismatch-status"></ul> -->
+  </div> 
 </body>
 </html>
