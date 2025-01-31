@@ -1,6 +1,6 @@
 # FocishRevisited
 
-This project is a revisit of the original Focish Chrome extension, which was initially developed during Hackcamp 2024 with my groupmates Dali, Amanda, and Priscila. For this revisited version, I took on the development independently and completed the functions that were given up during Hackcamp due to time limitation.
+This project is a revisit of the original Focish Chrome extension, which was initially developed during Hackcamp 2024 with my groupmates Dali, Amanda, and Priscila. For this revisited version, I took on the development independently and completed the functions that were given up during Hackcamp due to time limitation. Additionally, I would like to acknowledge the assistance of OpenAI's ChatGPT in helping me understand the different syntax and methods of JavaScript, html, and css.
 
 ### Focish can now:
 * Keep track of the users' "focus status" by tracking the website the user is currently on
